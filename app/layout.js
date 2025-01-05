@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
      }}
     >
       <html lang="en">
-        <body className={`antialiased`}>
+        <body className={`antialiased custom-background`}>
           <ThemeProvider attribute="class" defaultTheme="dark">
             <Header />
             <main className="min-h-screen">{children}</main>

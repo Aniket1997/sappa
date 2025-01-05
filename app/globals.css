@@ -70,3 +70,9 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.custom-background {
+  background-color: #0a111f;
+  background-size: 30px 30px;
+  animation: moveDots 10s linear infinite; 
+}
